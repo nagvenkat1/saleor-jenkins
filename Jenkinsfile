@@ -4,7 +4,7 @@ pipeline {
         pollSCM('* * * * *')
     }
 
-    }
+    
 stages {
     stage('vcs') {
         steps {
@@ -19,3 +19,8 @@ stages {
         }
         }
     }
+
+
+}
+
+
